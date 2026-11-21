@@ -1,44 +1,44 @@
 <h1 align="center">four1er</h1>
 
 <p align="center">
-  系统方向出身 · 现在专注于 LLM 基础设施与量化研究
+  Systems background · Now focused on LLM infrastructure and quantitative research
 </p>
 
 <p align="center">
-  <a href="https://four1er.github.io/llm-infra-daily/">📰 LLM 基础设施日报</a> ·
-  <a href="https://github.com/four1er?tab=repositories">📦 全部仓库</a>
+  <a href="https://four1er.github.io/llm-infra-daily/">📰 LLM Infra Daily</a> ·
+  <a href="https://github.com/four1er?tab=repositories">📦 All repositories</a>
 </p>
 
 ---
 
-## 关于我
+## About Me
 
-- 🔭 **当前关注**：LLM 训练与推理系统 —— 推理加速与 serving、KV cache、并行策略、量化与 MoE 工程
-- 🧑‍💻 **背景**：C++ / 分布式系统，实现过 Raft 与网络库，系统读过 LevelDB、brpc 源码
-- 📈 **正在学习**：美股量化 —— 因子选股、策略回测、样本外验证与模拟盘实证
-- 🧭 **方法论**：Motivation → How → Evaluation
-  - **Motivation（动机）**：为什么要做这件事？这件事有什么价值？如果不做行不行？还有其他更值得去做的事吗？
-  - **How（怎么做）**：别人有没有做过这件事？如果别人做过，我们的优势在哪？如果别人没有做过，我们应该怎么做？
-  - **Evaluation（评估）**：做完了之后怎么评估当前工作？通过，还是重新迭代？当前工作能否被沉淀复用？
+- 🔭 **Current focus**: LLM training and inference systems — inference acceleration and serving, KV cache, parallelism strategies, quantization, and MoE engineering
+- 🧑‍💻 **Background**: C++ / distributed systems. Built a Raft implementation and a network library; read through the LevelDB and brpc source code in depth
+- 📈 **Currently learning**: US-stock quant — factor investing, strategy backtesting, out-of-sample validation, and paper trading
+- 🧭 **Methodology**: Motivation → How → Evaluation
+  - **Motivation**: Why do this at all? What is its value? What happens if we don't? Is there something more worth doing?
+  - **How**: Has anyone done this before? If so, where is our edge? If not, how should we approach it?
+  - **Evaluation**: How do we assess the result afterwards — ship it or iterate? Can the work be distilled and reused?
 
-## 正在做的项目
+## Current Projects
 
-| 项目 | 说明 |
+| Project | Description |
 | --- | --- |
-| [llm-infra-daily](https://github.com/four1er/llm-infra-daily) | LLM 基础设施日报：每天汇总技术报告、arXiv 论文、行业与 X 动态，[在线阅读 →](https://four1er.github.io/llm-infra-daily/) |
-| [us-stock-quant](https://github.com/four1er/us-stock-quant) | 美股量化学习仓库：向量化回测、参数敏感性扫描、因子选股与回测、IBKR 模拟盘执行层 |
-| [ai-proxy-lab](https://github.com/four1er/ai-proxy-lab) | 本地反向代理实验室：多账号统一接入、请求/响应日志落盘、ShareGPT 风格 SFT 数据导出 |
+| [llm-infra-daily](https://github.com/four1er/llm-infra-daily) | A daily digest of LLM infrastructure: technical reports, arXiv papers, industry news and X discussions. [Read online →](https://four1er.github.io/llm-infra-daily/) |
+| [us-stock-quant](https://github.com/four1er/us-stock-quant) | US-stock quant learning repo: vectorized backtesting, parameter sensitivity scans, factor ranking and backtests, and an IBKR paper-trading execution layer |
+| [ai-proxy-lab](https://github.com/four1er/ai-proxy-lab) | A local reverse-proxy lab: unified access for multiple AI accounts, request/response logging, and ShareGPT-style SFT dataset export |
 
-## 系统与底层
+## Systems & Low-Level
 
-| 项目 | 说明 |
+| Project | Description |
 | --- | --- |
-| [TinyRaft](https://github.com/four1er/TinyRaft) | Raft 共识算法实现 |
-| [TinyNet](https://github.com/four1er/TinyNet) | C++ 网络库 |
-| [gemm](https://github.com/four1er/gemm) | CUDA GEMM 优化练习 |
-| [leveldb_annotation](https://github.com/four1er/leveldb_annotation) · [brpc_annotation](https://github.com/four1er/brpc_annotation) | LevelDB / brpc 源码注释阅读 |
+| [TinyRaft](https://github.com/four1er/TinyRaft) | An implementation of the Raft consensus algorithm |
+| [TinyNet](https://github.com/four1er/TinyNet) | A C++ network library |
+| [gemm](https://github.com/four1er/gemm) | CUDA GEMM optimization exercises |
+| [leveldb_annotation](https://github.com/four1er/leveldb_annotation) · [brpc_annotation](https://github.com/four1er/brpc_annotation) | Annotated source reading of LevelDB / brpc |
 
-## 技术栈
+## Tech Stack
 
 <p>
   <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white" alt="C++" />
@@ -49,7 +49,7 @@
   <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" alt="Git" />
 </p>
 
-## GitHub 统计
+## GitHub Stats
 
 <p align="center">
   <img height="160" src="https://github-readme-stats.vercel.app/api?username=four1er&show_icons=true&hide_border=true" alt="GitHub stats" />
